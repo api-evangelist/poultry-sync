@@ -1,0 +1,39 @@
+# PoultrySync
+
+> PoultrySync is an AI-powered data management platform for the poultry value chain, helping producers automate data collection, detect anomalies, forecast production, and report for compliance. Delivered as SaaS with ERP integration; no public API, SDK, or developer documentation is published as of this writing.
+
+generated: 2026-07-20
+method: generated
+source: apis.yml + poultrysync.com (no llms.txt published upstream)
+
+## Overview
+
+- Company: PoultrySync (poultrysync.com)
+- Category: Agriculture / poultry operations data platform
+- Model: AI-powered SaaS with ERP integration
+- Sales / contact: contact@agensight.com
+- AI expert chat: https://chat.poultrysync.com
+
+## Operational areas covered
+
+- Broilers — weight optimization and feed conversion
+- Breeders — fertility and hatchability
+- Hatchery — hatch-rate optimization
+- Layers — egg production and quality
+- Slaughterhouse — yield and compliance
+- Feedmill — production-line management
+- Grandparents — genetic tracking and breeding
+- Lab — testing and sampling
+- Quality Management — operations monitoring and analysis
+
+## Developer surface
+
+- Public API: none discovered
+- SDKs / packages: none discovered
+- Documentation portal: none discovered
+- Well-known documents: none (security.txt, openid-configuration, api-catalog, ai-plugin.json all 404)
+
+## Links
+
+- Website: https://poultrysync.com
+- Contact / demo: https://poultrysync.com/contact

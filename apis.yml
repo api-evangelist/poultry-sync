@@ -1,7 +1,27 @@
 aid: poultry-sync
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/poultry-sync.png
 name: Poultry sync
-description: Poultry sync is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  PoultrySync is an AI-powered data management platform for the poultry value
+  chain, helping producers increase productivity and reduce errors across
+  broilers, breeders, hatchery, layers, slaughterhouse, feedmill, grandparents,
+  lab, and quality management. The platform automates data collection, provides
+  real-time dashboards, detects anomalies, forecasts production, and supports
+  compliance reporting and audits, integrating with existing ERP systems in
+  days. Surfaced as a portfolio company of 500 Global and added to the API
+  Evangelist network. No public API, SDK, or developer documentation is
+  published as of this profile.
 url: https://raw.githubusercontent.com/api-evangelist/poultry-sync/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Agriculture
+- Poultry
+- Data Management
+- Artificial Intelligence
+- ERP Integration
+- Food Supply Chain
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://poultrysync.com
+- type: Support
+  url: https://poultrysync.com/contact
+- type: LLMsTxt
+  url: llms/poultry-sync-llms.txt
+- type: WellKnown
+  url: well-known/poultry-sync-well-known.yml
+- type: DomainSecurity
+  url: security/poultry-sync-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
